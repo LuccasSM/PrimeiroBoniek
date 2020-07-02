@@ -1,0 +1,175 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 50px;
+    background-color: #353535;
+}
+
+.cabecalhointerior {
+    width: 1000px;
+    margin: auto;
+    color: #ffffff;
+}
+
+.logo {
+    float: left;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+.caixaebotao {
+    line-height: 50px;
+    margin-left: 210px;
+}
+
+.caixaebotao input {
+    margin-left: 5px;
+}
+
+input[type="text" i] {
+    border-radius: 5px;
+    border: none;
+    height: 27px;
+    width: 200px;
+    color: #353535;
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+input[type="submit" i] {
+    border-radius: 5px;
+    background-color: #fec32b;
+    font-size: 15px;
+    color: #353535;
+    border: none;
+    cursor: pointer;
+    width: 90px;
+    height: 30px;
+}
+
+input[type="submit" i]:hover {
+    text-decoration: underline;
+}
+
+.itensmenu {
+    float: right;
+    margin-top: -50px;
+}
+
+.itensmenu ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.itensmenu li {
+    float: right;
+    padding-left: 25px;
+    padding-right: 25px;
+    line-height: 50px;
+    font-size: 15px;
+}
+
+.itensmenu li:hover {
+    background-color: #3480c1;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bannerbaixocabecalho {
+    width: 100%;
+    height: 300px;
+    background-color: #3480c1;
+}
+
+.bannerbaixobaixocabecalho {
+    width: 1000px;
+    margin: auto;
+}
+
+.bannerquadradoesquerda {
+    float: left;
+}
+
+.bannerquadradodireita {
+    float: right;
+}
+
+.titulobanner1 {
+    margin-top: 60px;
+    font-size: 48px;
+    color: #ffffff;
+}
+
+.subtitulobanner2 {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+a {
+    color: #353535;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.botaobanner {
+    background-color: #fec32b;
+    color: #353535;
+    width: 282px;
+    height: 56px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 56px;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 55px;
+}
+
+.botaobanner:hover {
+    text-decoration: underline;
+}
+
+.conteudodentro {
+    width: 1000px;
+    margin: auto;
+}
+
+.dentrodosite {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    color: #353535;
+    height: 90px;
+    line-height: 90px;
+    margin-top: -15px;
+}
+
+.foto img {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+
+.rodape {
+    background-color: #3480c1;
+    color: #353535;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
